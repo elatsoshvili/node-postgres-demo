@@ -1,0 +1,27 @@
+{
+  "name": "node-postgres-demo",
+  "version": "1.0.0",
+  "description": "Demo project - REST API with node and postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha --timeout 3000",
+    "start": "node server.js"
+  },
+  "apidoc": {
+    "title": "REST API with node and postgres",
+    "url": ""
+  },
+  "author": "Elene Latsoshvili",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "bcrypt": "^1.0.2",
+    "bunyan": "^1.8.10",
+    "db-migrate": "^0.10.5",
+    "db-migrate-pg": "^0.3.1",
+    "dotenv": "^4.0.0",
+    "mysql": "^2.13.0",
+    "pg": "^7.4.1",
+    "restify": "^4.3.0"
+  }
+}
